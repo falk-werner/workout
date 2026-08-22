@@ -1,14 +1,34 @@
+html, body {
+    font-size: 16pt;
+}
+
 .hidden {
     display: none;
     visibility: hidden;
 }
 
 #page {
-    width: 70%;
     border: 1px solid black;
     padding: 20px;
     margin: auto;
 }
+
+@media (orientation: portrait) {
+
+#page {
+    width: 80%;
+}
+
+}
+
+@media (orientation: landscape) {
+
+#page {
+    width: 30%;
+}
+
+}
+
 
 #status {
     width: 100%;
@@ -17,6 +37,7 @@
 
 #page input {
     width: 100%;
+    font-size: 16pt;
 }
 
 #page img {
