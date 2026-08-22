@@ -1,0 +1,20 @@
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+#page {
+    width: 370px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+}
+
+#status {
+    width: 100%;
+    text-align: center;
+}
+
+#page input {
+    width: 100%;
+}
