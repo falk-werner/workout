@@ -43,3 +43,11 @@ html, body {
 #page img {
     width: 100%;
 }
+
+#info {
+    text-align: right;
+}
+
+#info > input {
+    width: auto;
+}
